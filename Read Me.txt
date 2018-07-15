@@ -1,0 +1,48 @@
+              "SMART MANAGER" is a Java Based Software based on GUI and easy to use.
+
+ In this Software you can keep record of your Daily Income and Expense.
+
+ It is useful for Every Home to reduce the complexity of rembering the Income and Expense of Daily Life
+ 
+// This is Developed by AVINASH KUMAR SINGH (CSE 3rd year) of Aryan Institute of Engineering and Technology BBSR
+
+
+Go to the following step before running the "SMART MANAGER" 
+
+1. Install JDK(updated version).
+
+2. Install ORACLE 10G Database with Username:-"system"(by Default) and Password:-"avinash".
+
+3. Open Oracle 10g database in Browser and Login with Username and Password
+
+4. Run the following SQL command for creating Table in Database.
+   
+   (i) CREATE TABLE  "MANAGER" ("NAME" VARCHAR2(400), 
+	"CONTACT" VARCHAR2(400), 
+	"D_O_B" DATE, 
+	"GENDER" VARCHAR2(400), 
+	"ADDRESS" VARCHAR2(4000), 
+	"USER_ID" VARCHAR2(400), 
+	"PASSWORD" VARCHAR2(400), 
+	"USER_TYPE" VARCHAR2(400), 
+	"IDENTITY" VARCHAR2(400), 
+	"QUESTION" VARCHAR2(4000), 
+	"ANSWER" VARCHAR2(400));
+
+   (ii) CREATE TABLE  "INCOME" ("TRANSACTION_DATE" DATE, 
+	"ID" VARCHAR2(400), 
+	"NAME" VARCHAR2(400), 
+	"SOURCE" VARCHAR2(400), 
+	"TYPE" VARCHAR2(400), 
+	"TOTAL" VARCHAR2(400));
+
+   (iii) CREATE TABLE  "ITEMS" ("CATEGORY_NAME" VARCHAR2(400), 
+	"ITEM_NAME" VARCHAR2(400));
+
+5. Now you can Run the "SMART MANAGER".
+6. jar file of Smart Manager is present under dist Folder. You can Directly go from there.
+
+
+ // For any queries Plese Send Email on:- "kumaravinash328@gmail.com" or contact on Contact no.-"9931778331", "8342992234" //
+
+   
